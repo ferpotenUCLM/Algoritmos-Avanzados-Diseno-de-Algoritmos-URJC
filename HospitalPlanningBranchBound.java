@@ -2,9 +2,8 @@ import java.util.*;
 
 public class HospitalPlanningBranchBound {
     
-    /**
-     * Nodo para el algoritmo de ramificacion y poda
-     */
+    
+    //Nodo para el algoritmo de ramificacion y poda
     static class Node implements Comparable<Node> {
         int nivel;
         boolean[] seleccionados;
@@ -25,9 +24,8 @@ public class HospitalPlanningBranchBound {
         }
     }
     
-    /**
-     * Algoritmo de ramificacion y poda
-     */
+    // Algoritmo de ramificacion y poda
+    
     public static int hospitalesBranchBound(int[] xs, int[] ps) {
         int n = xs.length;
         
@@ -90,34 +88,14 @@ public class HospitalPlanningBranchBound {
         return mejorValor;
     }
     
-    /**
-     * Funcion de cota superior
-     * Devuelve el valor actual mas la suma acumulada de beneficios pendientes
-     */
+    //Funcion de cota superior
+    // Devuelve el valor actual mas la suma acumulada de beneficios pendientes
+     
     private static double calcularCota(int nivel, int valorActual, int[] sumaAcumulada) {
         return valorActual + sumaAcumulada[nivel];
     }
     
-    /**
-     * Funcion de cota optimista alternativa
-     * Considera que podriamos seleccionar todos los hospitales restantes
-     * (aunque esto violaria las restricciones de distancia)
-     *
-     * Funcion de cota pesimista
-     * Considera solo los hospitales que definitivamente se pueden agregar
-     */
-    private static double calcularCotaPesimista(int nivel, int valorActual, int[] ps, 
-                                              boolean[] seleccionados, int[] xs) {
-        // Implementacion mas conservadora que considera las restricciones
-        double cota = valorActual;
-        // Aqui se podria implementar una heuristica para estimar el maximo posible
-        // considerando las restricciones de distancia
-        return cota;
-    }
-    
-    /**
-     * Validity check optimizado (mismo que en backtracking)
-     */
+    // Validity check optimizado (mismo que en backtracking)
     private static boolean esValidoOptimizado(int i, boolean[] seleccionados, int[] xs) {
         for (int j = i - 1; j >= 0; j--) {
             if (seleccionados[j]) {
