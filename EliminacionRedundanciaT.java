@@ -52,12 +52,12 @@ public class EliminacionRedundanciaT {
     }
 
     public static int fTabParaSRec(int x) {
-        // simple wrapper: usa memorizaciOn (gMem) para que SRec vea la recursiOn
+
         return fMem(x);
     }
 
     public static int fTabOptParaSRec(int x) {
-        // idem: si quieres ver la "misma" computaciOn pero con trazado de recursiOn
+
         return fMem(x);
     }
 
