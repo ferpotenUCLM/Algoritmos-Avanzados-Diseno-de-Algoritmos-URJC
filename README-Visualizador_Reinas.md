@@ -1,4 +1,4 @@
-# 📘 `NQueensVisualizer` – Documentación Oficial
+# `NQueensVisualizer` – Documentación Oficial
 
 **Autor:** Fernando Potenciano
 **Versión:** 1.0
@@ -7,7 +7,7 @@
 
 ---
 
-# 📑 Índice
+# Índice
 
 * [Descripción general](#descripción-general)
 * [Arquitectura del sistema](#arquitectura-del-sistema)
@@ -22,7 +22,7 @@
 
 ---
 
-# 🧩 Descripción general
+# Descripción general
 
 `NQueensVisualizer` es una aplicación Java Swing que **visualiza paso a paso** el algoritmo de Backtracking para resolver el problema de las N-Reinas.
 
@@ -40,7 +40,7 @@ Está diseñado específicamente con fines **docentes**.
 
 ---
 
-# 🏛️ Arquitectura del sistema
+# Arquitectura del sistema
 
 ```
 NQueensVisualizer (JFrame)
@@ -71,7 +71,7 @@ NQueensVisualizer (JFrame)
 
 ---
 
-# 🧭 Diagrama general de la aplicación
+# Diagrama general de la aplicación
 
 ```
 +-------------------------------------------------------------------+
@@ -90,7 +90,7 @@ NQueensVisualizer (JFrame)
 
 ---
 
-# 🔍 Algoritmo y registro de pasos
+# Algoritmo y registro de pasos
 
 El visualizador **ejecuta primero el backtracking completo**, guardando:
 
@@ -106,7 +106,7 @@ Luego la UI reproduce esos pasos como si fuese un vídeo interactivo.
 
 ---
 
-# 🔄 Diagramas del flujo del algoritmo
+# Diagramas del flujo del algoritmo
 
 ### Flujo principal del Backtracking
 
@@ -150,7 +150,7 @@ BoardPanel repinta el tablero
 
 ---
 
-# 📦 Estructuras de datos
+# Estructuras de datos
 
 ### Estado del tablero
 
@@ -173,13 +173,13 @@ SOLUTION  → fila = N
 
 ---
 
-# 📚 Documentación Javadoc
+# Documentación Javadoc
 
 Puedes **copiar y pegar** esta documentación directamente en tu código.
 
 ---
 
-## 🌐 Clase `NQueensVisualizer`
+## Clase `NQueensVisualizer`
 
 ```java
 /**
@@ -207,7 +207,7 @@ Puedes **copiar y pegar** esta documentación directamente en tu código.
 
 ---
 
-## 🌐 Clase `StepNode`
+## Clase `StepNode`
 
 ```java
 /**
@@ -227,7 +227,7 @@ Puedes **copiar y pegar** esta documentación directamente en tu código.
 
 ---
 
-## 🌐 Enum `StepType`
+## Enum `StepType`
 
 ```java
 /**
@@ -241,7 +241,7 @@ Puedes **copiar y pegar** esta documentación directamente en tu código.
 
 ---
 
-## 🔧 Método `generateSteps()`
+## Método `generateSteps()`
 
 ```java
 /**
@@ -257,7 +257,7 @@ Puedes **copiar y pegar** esta documentación directamente en tu código.
 
 ---
 
-## 🔧 Método `backtrackRecord(int row)`
+## Método `backtrackRecord(int row)`
 
 ```java
 /**
@@ -275,7 +275,7 @@ Puedes **copiar y pegar** esta documentación directamente en tu código.
 
 ---
 
-## 🔧 Método `isSafe(int row, int col)`
+## Método `isSafe(int row, int col)`
 
 ```java
 /**
@@ -289,7 +289,7 @@ Puedes **copiar y pegar** esta documentación directamente en tu código.
 
 ---
 
-## 🔧 Métodos `placeQueen()` y `removeQueen()`
+## Métodos `placeQueen()` y `removeQueen()`
 
 ```java
 /**
@@ -305,7 +305,7 @@ Puedes **copiar y pegar** esta documentación directamente en tu código.
 
 ---
 
-## 🎨 `BoardPanel.paintComponent(Graphics g)`
+## `BoardPanel.paintComponent(Graphics g)`
 
 ```java
 /**
@@ -316,7 +316,7 @@ Puedes **copiar y pegar** esta documentación directamente en tu código.
 
 ---
 
-# 📐 Diagrama UML
+# Diagrama UML
 
 ```
 +---------------------+
@@ -353,7 +353,7 @@ Puedes **copiar y pegar** esta documentación directamente en tu código.
 
 ---
 
-# ▶️ Compilación y ejecución
+# Compilación y ejecución
 
 ```
 javac NQueensVisualizer.java
