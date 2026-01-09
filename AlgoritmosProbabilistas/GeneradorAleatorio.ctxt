@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=GeneradorAleatorio
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GeneradorAleatorio\ here.\r\n\ \r\n\ @author\ (\u00C1ngel\ Vel\u00E1zquez\ Iturbide,\ Departamento\ de\ Inform\u00E1tica\ y\ Estad\u00EDstica,\ Universidad\ Rey\ Juan\ Carlos)\r\n\ Asignatura\:\ Algoritmos\ Avanzados,\ Grado\ en\ Ingenier\u00EDa\ Inform\u00E1tica\r\n\ @version\ (Curso\ 2014-15)\r\n
+comment1.params=n
+comment1.target=void\ iniciar(int)
+comment2.params=
+comment2.target=float\ generadorLehmer()
+comment3.params=sup
+comment3.target=void\ Prueba(int)
+comment4.params=sup
+comment4.target=int\ natGeneradorLehmer(int)
+comment5.params=sup
+comment5.target=void\ natPrueba(int)
+numComments=6

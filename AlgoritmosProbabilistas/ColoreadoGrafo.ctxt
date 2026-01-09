@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ColoreadoGrafo
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ColoreadoGrafo\ here.\r\n\ \r\n\ @author\ (\u00C1ngel\ Vel\u00E1zquez\ Iturbide,\ Departamento\ de\ Inform\u00E1tica\ y\ Estad\u00EDstica,\ Universidad\ Rey\ Juan\ Carlos)\r\n\ Asignatura\:\ Algoritmos\ Avanzados,\ Grados\ en\ Ingenier\u00EDa\ Inform\u00E1tica\ e\ Ingenier\u00EDa\ de\ Computadores\r\n\ @version\ (Curso\ 2023-24)\r\n
+comment1.params=grafo
+comment1.target=int\ coloreadoGrafoH1(int[][])
+comment2.params=n\ color
+comment2.target=void\ imprimirGrafoColoreado(int,\ int[])
+comment3.params=grafo
+comment3.target=int\ coloreadoGrafoProb(int[][])
+comment4.params=n
+comment4.target=int[]\ generarIndicesAlea(int)
+comment5.params=grafo
+comment5.target=int\ coloreadoGrafoIter(int[][])
+comment6.params=n\ color\ orden
+comment6.target=void\ imprimirGrafoColoreadoOrden(int,\ int[],\ int[])
+numComments=7

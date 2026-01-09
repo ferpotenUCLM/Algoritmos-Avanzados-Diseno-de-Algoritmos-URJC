@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=CicloHamiltoniano
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CopyOfCicloHamiltoniano2\ here.\r\n\ \r\n\ @author\ (\u00C1ngel\ Vel\u00E1zquez\ Iturbide,\ Departamento\ de\ Inform\u00E1tica\ y\ Estad\u00EDstica,\ Universidad\ Rey\ Juan\ Carlos)\r\n\ Asignatura\:\ Algoritmos\ Avanzados,\ Grados\ en\ Ingenier\u00EDa\ Inform\u00E1tica\ e\ Ingenier\u00EDa\ de\ Computadores\r\n\ @version\ (Curso\ 2024-25)\r\n
+comment1.params=grafo
+comment1.target=int\ cicloHamiltonianoLocal1(int[][])
+comment10.params=grafo
+comment10.target=int\ cicloHamiltonianoRecocido(int[][])
+comment2.params=grafo
+comment2.target=int\ cicloHamiltonianoLocal2(int[][])
+comment3.params=grafo
+comment3.target=int[]\ crearCicloHamiltonianoSimple(int[][])
+comment4.params=ciclo\ grafo
+comment4.target=int\ calcularLongitud(int[],\ int[][])
+comment5.params=grafo\ ciclo
+comment5.target=void\ imprimirCiclo(int[][],\ int[])
+comment6.params=grafo
+comment6.target=int\ cicloHamiltonianoProb(int[][])
+comment7.params=grafo
+comment7.target=int[]\ crearCicloHamiltonianoProb(int[][])
+comment8.params=grafo
+comment8.target=int\ cicloHamiltonianoIterativo(int[][])
+comment9.params=grafo
+comment9.target=int\ cicloHamiltonianoEstocastico(int[][])
+numComments=11

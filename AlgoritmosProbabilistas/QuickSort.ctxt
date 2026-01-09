@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=QuickSort
+comment0.text=\r\n\ Brev\u00EDsima\ descripci\u00F3n\ de\ la\ clase\ Ordenar\r\n\ \r\n\ @author\ (\u00C1ngel\ Vel\u00E1zquez\ Iturbide,\ Departamento\ de\ Inform\u00E1tica\ y\ Estad\u00EDstica,\ Universidad\ Rey\ Juan\ Carlos)\r\n\ Asignatura\:\ Algoritmos\ Avanzados,\ Grado\ en\ Ingenier\u00EDa\ Inform\u00E1tica\r\n\ @version\ (Curso\ 2014-15)\r\n
+comment1.params=v
+comment1.target=void\ quickSort(int[])
+comment2.params=v\ inf\ sup
+comment2.target=void\ qSort(int[],\ int,\ int)
+comment3.params=v\ inf\ sup
+comment3.target=int\ partir(int[],\ int,\ int)
+comment4.params=v
+comment4.target=void\ quickSortProb(int[])
+comment5.params=v\ inf\ sup
+comment5.target=void\ qsProb(int[],\ int,\ int)
+comment6.params=v\ inf\ sup
+comment6.target=int\ partirProb(int[],\ int,\ int)
+comment7.params=v
+comment7.target=void\ imprimir(int[])
+numComments=8

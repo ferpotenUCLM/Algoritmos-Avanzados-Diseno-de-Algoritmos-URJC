@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=N_reinas
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ N_reinas\ here.\r\n\ \r\n\ @author\ (\u00C1ngel\ Vel\u00E1zquez\ Iturbide,\ Departamento\ de\ Inform\u00E1tica\ y\ Estad\u00EDstica,\ Universidad\ Rey\ Juan\ Carlos)\r\n\ Asignatura\:\ Algoritmos\ Avanzados,\ Grado\ en\ Ingenier\u00EDa\ Inform\u00E1tica\r\n\ @version\ (Curso\ 2014-15)\r\n
+comment1.params=n
+comment1.target=boolean\ n_reinasDeterminista(int)
+comment2.params=n_1\ i\ solucion\ f\ dp\ ds
+comment2.target=boolean\ buscarReinas(int,\ int,\ int[],\ boolean[],\ boolean[],\ boolean[])
+comment3.params=n
+comment3.target=boolean\ n_reinasProbabilistaInseguro(int)
+comment4.params=n
+comment4.target=void\ n_reinasProbabilistaSeguro(int)
+comment5.params=n
+comment5.target=boolean\ n_reinasProbabilistaMixtoInseguro(int)
+comment6.params=n
+comment6.target=void\ n_reinasProbabilistaMixtoSeguro(int)
+comment7.params=v
+comment7.target=void\ imprimir(int[])
+numComments=8
